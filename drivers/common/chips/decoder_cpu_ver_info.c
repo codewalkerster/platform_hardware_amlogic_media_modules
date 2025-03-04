@@ -251,6 +251,7 @@ static struct dos_of_dev_s dos_dev_data[AM_MESON_CPU_MAJOR_ID_MAX - MAJOR_ID_STA
 		.is_support_axi_ctrl = true,
 		.is_support_fb_axi = true,
 		.is_support_monitor = true,
+		.is_support_avbc_wrapper = true,
 		.vdec_max_resolution = RESOLUTION_4K,
 		.hevc_max_resolution = RESOLUTION_8K,
 		.fmt_support_flags = FMT_VDEC_ALL | FMT_HEVC_VP9_AVS2_AV1,
@@ -478,6 +479,7 @@ static struct dos_of_dev_s dos_dev_data[AM_MESON_CPU_MAJOR_ID_MAX - MAJOR_ID_STA
 		.is_vcpu_clk_set = true,
 		.is_vp9_adapt_prob_hw_mode = true,
 		.is_support_monitor = true,
+		.is_support_avbc_wrapper = true,
 		.vdec_max_resolution = RESOLUTION_4K,
 		.hevc_max_resolution = RESOLUTION_4K,
 		.fmt_support_flags = FMT_VDEC_ALL | FMT_HEVC_VP9_AVS2_AV1,
@@ -631,6 +633,7 @@ static struct dos_of_dev_s dos_dev_sub_table[] = {
 		.is_support_fb_axi = true,
 		.is_mjpeg_endian_rematch = true,
 		.is_support_monitor = true,
+		.is_support_avbc_wrapper = true,
 		.vdec_max_resolution = RESOLUTION_4K,
 		.hevc_max_resolution = RESOLUTION_8K,  //fixed endian issue
 		.fmt_support_flags = FMT_VDEC_ALL | FMT_HEVC_VP9_AVS2_AV1,
